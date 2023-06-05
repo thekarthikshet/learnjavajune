@@ -13,11 +13,14 @@ public class PracticeApplication {
 		 int a =8;
 		 int b =80;
 		 int c=88;
+<<<<<<< HEAD
 		 //hello2
 		 // data demon
+=======
+		 //hello
+>>>>>>> parent of d15764a (changedcomment)
 		System.out.println(a);
 		System.out.println(b);
-		//galtis se mistake
 	}
 
 }
