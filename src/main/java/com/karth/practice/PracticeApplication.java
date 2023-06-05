@@ -14,6 +14,7 @@ public class PracticeApplication {
 		 int b =80;
 		 int c=88;
 		 //hello2
+		 // data demon
 		System.out.println(a);
 		System.out.println(b);
 	}
