@@ -4,23 +4,35 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class PracticeApplication {
+ public class PracticeApplication {
 	//hhsa
 	
+	
+	public static void printNumb(int n)
+	{
+		
+		if(n<0)
+		{
+			return;
+		}
+	    
+	    printNumb(n-1);
+	    System.out.println(n); 
+		
+	}
 
 	public static void main(String[] args) {
 		SpringApplication.run(PracticeApplication.class, args);
 		 int a =8;
 		 int b =80;
 		 int c=88;
-<<<<<<< HEAD
+
 		 //hello2
 		 // data demon
-=======
+
 		 //hello
->>>>>>> parent of d15764a (changedcomment)
-		System.out.println(a);
-		System.out.println(b);
+
+		 printNumb(5);
 	}
 
 }
